@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.22)
+project(SpatialDesktop LANGUAGES CXX RC)
+set(STEAM_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/../third_party/steamaudio")
+add_executable(Spatial WIN32 main.cpp spatial.rc)
+target_compile_features(Spatial PRIVATE cxx_std_20)
+target_compile_definitions(Spatial PRIVATE UNICODE _UNICODE WIN32_LEAN_AND_MEAN NOMINMAX _WIN32_WINNT=0x0A00)
+target_compile_options(Spatial PRIVATE /O2 /W4 /utf-8)
+set_property(TARGET Spatial PROPERTY MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+target_include_directories(Spatial PRIVATE "${STEAM_ROOT}/include")
+target_link_libraries(Spatial PRIVATE "${STEAM_ROOT}/lib/windows-x64/phonon.lib" comctl32 comdlg32 dwmapi gdi32 user32 shell32 ole32 propsys uuid mfplat mfreadwrite mfuuid avrt mmdevapi)
+add_custom_command(TARGET Spatial POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_if_different "${STEAM_ROOT}/lib/windows-x64/phonon.dll" "$<TARGET_FILE_DIR:Spatial>")
+
+target_link_options(Spatial PRIVATE /MANIFEST:NO)

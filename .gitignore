@@ -1,0 +1,41 @@
+.gradle/
+.kotlin/
+.tools/
+.android/
+local.properties
+**/build/
+**/.cxx/
+*.iml
+.idea/
+captures/
+*.pftrace
+third_party/steamaudio/
+/dist/*
+!/dist/manifest.json
+!/dist/SHA256SUMS.txt
+!/dist/README.md
+/Success/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+*.jks
+local.properties
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+*.log
+
+# Project output
+*.exe
+*.dll
+*.zip
