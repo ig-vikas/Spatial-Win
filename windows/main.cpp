@@ -32,7 +32,7 @@
 #include <thread>
 #include <string_view>
 #include <unordered_map>
-#include "../app/src/main/cpp/engine.cpp"
+#include "../shared/audio/engine.cpp"
 
 using Microsoft::WRL::ComPtr;
 using namespace std::chrono_literals;
