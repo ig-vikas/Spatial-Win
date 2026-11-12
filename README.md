@@ -31,3 +31,12 @@ The build writes packages to `dist/`. Keep the Steam Audio runtime beside `Spati
 ## Tests and verification
 
 After building, open the portable app, play a local track, move it on the stage, and check a saved space reload. Close the app to the tray and test Stop and Quit. Device-audio behavior depends on the Windows version, source application, and audio endpoint.
+
+## License
+
+The project code is available under the [MIT License](LICENSE).
+
+The bundled components and test assets include their own notices.
+
+- [Steam Audio license](licenses/STEAM-AUDIO-LICENSE.txt)
+- [Steam Audio third-party notices](licenses/STEAM-AUDIO-THIRDPARTY.txt)
