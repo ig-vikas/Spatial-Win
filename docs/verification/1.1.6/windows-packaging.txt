@@ -1,0 +1,3 @@
+Setup extraction: PASS
+Setup and ZIP payloads match, including phonon.dll: PASS
+Extracted executable decoded and rendered the music fixture: PASS

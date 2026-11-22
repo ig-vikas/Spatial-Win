@@ -1,0 +1,2 @@
+Recorded cello path L/R energy ratios: 8.99981 -> 0.111276 -> 8.93097
+Windows native engine: left, right, return left, no underruns. Inactive source clock held.

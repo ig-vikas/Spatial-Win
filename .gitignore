@@ -39,3 +39,10 @@ Thumbs.db
 *.exe
 *.dll
 *.zip
+
+# Published Spatial packages
+!/dist/Spatial-*-Windows-x64-Setup.exe
+!/dist/Spatial-*-Windows-x64.zip
+!/dist/Spatial-*-Windows-x64/
+!/dist/Spatial-*-Windows-x64/Spatial.exe
+!/dist/Spatial-*-Windows-x64/phonon.dll

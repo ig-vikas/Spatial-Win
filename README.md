@@ -17,6 +17,15 @@ Play local tracks or an available device-audio source, position sources in a vir
 | [`shared/audio/`](shared/audio/) | Native audio engine and DSP shared with the Android edition |
 | [`scripts/build-windows.ps1`](scripts/build-windows.ps1) | x64 compilation, portable ZIP, and optional NSIS installer |
 
+## Downloads
+
+| Windows x64 1.1.4 | Package |
+| --- | --- |
+| Installer | [Setup EXE](dist/Spatial-1.1.4-Windows-x64-Setup.exe) |
+| Portable | [ZIP](dist/Spatial-1.1.4-Windows-x64.zip) |
+
+Quit Spatial from the tray before updating. For the portable build, extract the whole ZIP before opening Spatial.exe. See the [package archive](dist/) and [SHA-256 checksums](dist/SHA256SUMS.txt).
+
 ## Build the Windows EXE
 
 Install Visual Studio 2022 C++ Build Tools, the Windows SDK, and CMake. Install NSIS to build a Setup EXE in addition to the portable ZIP.

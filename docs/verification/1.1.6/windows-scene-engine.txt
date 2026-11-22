@@ -1,0 +1,1 @@
+Desktop scene callbacks: external endpoint, Follow/Hold, saved movement points and old v1 scene all passed.

@@ -1,0 +1,4 @@
+center source: 0, measured output: 0
+WASAPI fixed field: captured=192324 frames, peak=0.000007, tail=0.000000
+stereo source: 0, measured output: 0
+WASAPI fixed field: captured=192955 frames, peak=0.006181, tail=0.000000

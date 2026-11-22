@@ -1,0 +1,17 @@
+{
+  "version": "1.1.4",
+  "windows": {
+    "setup": {
+      "file": "Spatial-1.1.4-Windows-x64-Setup.exe",
+      "bytes": 13756883,
+      "sha256": "6f9b955c162232e1f7d736d5f01fcc5fa287f3bee69dc4684c03170765008be9"
+    },
+    "portable": {
+      "file": "Spatial-1.1.4-Windows-x64.zip",
+      "bytes": 19664030,
+      "sha256": "a63f77a30d7eee00a9412444c8a4ec762e4ca6496dd581f52eb75d47a14a6a21"
+    },
+    "version": "1.1.4"
+  },
+  "verification": "../docs/verification/1.1.6/"
+}
